@@ -10,18 +10,10 @@ winter = [1, 2, 12]
 spring = [3, 4, 5]
 summer = [6, 7, 8]
 full = [9, 10, 11]
-while True:
-    if user_month.isdigit():
-        break
-    else:
-        user_month = input('Вы ввели не  число, введите число от 1 до 12 ')
-        continue
-while True:
-    if int(user_month) < 1 or int(user_month) > 12:
-        user_month = input('Вы ввели неверное  число, введите число от 1 до 12 ')
-        continue
-    else:
-        break
+
+while user_month.isdigit() == False or int(user_month) > 12 or user_month == '0':
+    print('Необходимо вводить данные целыми положительными числами!')
+    user_month = input('Введите месяц в виде целого числа от 1 до 12: ')
 
 user_month = int(user_month)
 if user_month in winter:
@@ -38,18 +30,9 @@ print('*** ВАРИАНТ РЕШЕНИЯ ЧЕРЕЗ СЛОВАРЬ ***')
 
 user_month = input('Введите месяц в виде целого числа от 1 до 12: ')
 
-while True:
-    if user_month.isdigit():
-        break
-    else:
-        user_month = input('Вы ввели не  число, введите число от 1 до 12 ')
-        continue
-while True:
-    if int(user_month) < 1 or int(user_month) > 12:
-        user_month = input('Вы ввели неверное  число, введите число от 1 до 12 ')
-        continue
-    else:
-        break
+while user_month.isdigit() == False or int(user_month) > 12 or user_month == '0':
+    print('Необходимо вводить данные целыми положительными числами!')
+    user_month = input('Введите месяц в виде целого числа от 1 до 12: ')
 
 my_dict = {
     1: 'зима',
