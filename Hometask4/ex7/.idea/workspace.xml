@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db5cdbfb-0908-4c5e-b383-d62a6155b37c" name="Default Changelist" comment="add exercise 7" />
+    <list default="true" id="db5cdbfb-0908-4c5e-b383-d62a6155b37c" name="Default Changelist" comment="change exercise 7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +39,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -79,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603107950650</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change exercise 7">
+      <created>1603112253541</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603112253541</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +105,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add exercise 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="add exercise 7" />
+    <MESSAGE value="change exercise 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="change exercise 7" />
   </component>
 </project>
